@@ -1,0 +1,507 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'dec-02-part-01'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=dec-02-part-01",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-02-part-01",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'dec-02-part-01'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=dec-02-part-01",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-02-part-01",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'dec-03-part-02'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=dec-03-part-02",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-03-part-02",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'dec-03-part-02'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=dec-03-part-02",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-03-part-02",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'dec-01-part-02'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=dec-01-part-02",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-01-part-02",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'dec-01-part-02'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=dec-01-part-02",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-01-part-02",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'dec-06-part-01'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=dec-06-part-01",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-06-part-01",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'dec-06-part-01'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=dec-06-part-01",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-06-part-01",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'dec-04-part-01'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=dec-04-part-01",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-04-part-01",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'dec-04-part-01'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=dec-04-part-01",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-04-part-01",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'dec-04-part-02'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=dec-04-part-02",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-04-part-02",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'dec-04-part-02'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=dec-04-part-02",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-04-part-02",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'dec-05-part-01'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=dec-05-part-01",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-05-part-01",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'dec-05-part-01'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=dec-05-part-01",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-05-part-01",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'dec-01-part-01'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=dec-01-part-01",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-01-part-01",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'dec-01-part-01'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=dec-01-part-01",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-01-part-01",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'dec-02-part-02'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=dec-02-part-02",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-02-part-02",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'dec-02-part-02'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=dec-02-part-02",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-02-part-02",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'dec-05-part-02'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=dec-05-part-02",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-05-part-02",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'dec-05-part-02'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=dec-05-part-02",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-05-part-02",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'dec-06-part-02'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=dec-06-part-02",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-06-part-02",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'dec-06-part-02'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=dec-06-part-02",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-06-part-02",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'dec-03-part-01'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=dec-03-part-01",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-03-part-01",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'dec-03-part-01'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=dec-03-part-01",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-03-part-01",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'dec-07-part-01'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=dec-07-part-01",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-07-part-01",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'dec-07-part-01'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=dec-07-part-01",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-07-part-01",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'dec-07-part-02'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=dec-07-part-02",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-07-part-02",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
