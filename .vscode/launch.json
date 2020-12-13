@@ -502,6 +502,42 @@
       },
       "args": [],
       "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'dec-08-part-01'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=dec-08-part-01",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-08-part-01",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'dec-08-part-02'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=dec-08-part-02",
+          "--package=advent-of-code-2020"
+        ],
+        "filter": {
+          "name": "dec-08-part-02",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
     }
   ]
 }
